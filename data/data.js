@@ -15,3 +15,5 @@ var waitlist = [
         phone: "4075555500"
     }
 ]
+
+var data = module.exports
