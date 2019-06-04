@@ -1,0 +1,19 @@
+{
+  "name": "hotrestaurants",
+  "version": "1.0.0",
+  "description": "In Class assignment to create a reservation system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctashton/hotrestaurants.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctashton/hotrestaurants/issues"
+  },
+  "homepage": "https://github.com/ctashton/hotrestaurants#readme"
+}
