@@ -21,7 +21,7 @@
     <div class="card">
         <h5 class="card-header">Featured</h5>
         <div class="card-body">
-            <form>
+            <form action="/api/res" method="POST">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Name</label>
                   <input class="form-control" id="name">
@@ -39,7 +39,7 @@
                     <label>Unique ID</label>
                     <input class="form-control" id="unique">
                   </div>
-                <button type="submit" class="btn btn-primary" id= "add">Submit</button>
+                <button type="submit" class="btn btn-primary" value="submit" id= "add">Submit</button>
               </form>
         </div>
       </div>
@@ -52,24 +52,3 @@
     </div>
 </body>
 </html>
-<script>
-// /api/waitlist
-// /api/res
-
-$("#add").on("click", function(event) {
-      event.preventDefault();
-      var newTable = {
-        id: $("#unique").val().trim(),
-        name: $("#name").val().trim(),
-        email: $("#email").val().trim(),
-        phone: $("#phone").val().trim()
-      };
-
-      // Question: What does this code do??
-      $.post("/api/res", newTable)
-        .then(function(data) {
-          console.log("make.html", data);
-          alert("Adding table...");
-        });
-    });
-</script>

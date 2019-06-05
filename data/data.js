@@ -16,4 +16,5 @@ var waitlist = [
     }
 ]
 
-var data = module.exports
+module.exports = reservations
+module.exports = waitlist
