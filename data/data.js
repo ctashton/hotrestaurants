@@ -4,10 +4,7 @@ var reservations = [
         name: "Corey",
         email: "coreysemail@email.com",
         phone: "4075555500"
-    }
-]
-
-var waitlist = [
+    },
     {
         id:2,
         name: "John",
@@ -17,4 +14,3 @@ var waitlist = [
 ]
 
 module.exports = reservations
-module.exports = waitlist
